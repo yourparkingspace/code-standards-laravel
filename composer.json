@@ -1,10 +1,9 @@
 {
-    "name": "netsells/code-standards-laravel",
-    "description": "Netsells package providing pre-configured quality tools for our Laravel projects.",
+    "name": "yourparkingspace/code-standards-laravel",
+    "description": "YourParkingSpace package providing pre-configured quality tools for our Laravel projects.",
     "type": "library",
     "license": "proprietary",
     "keywords": [
-        "netsells",
         "laravel",
         "quality tools"
     ],
@@ -26,7 +25,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Netsells\\CodeStandards\\Laravel\\Core\\": "core/src/"
+            "YourParkingSpace\\CodeStandards\\Laravel\\Core\\": "core/src/"
         }
     }
 }

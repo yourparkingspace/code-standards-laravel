@@ -4,7 +4,7 @@ use PhpCsFixer\Config;
 use PhpCsFixer\Finder;
 
 /** @var Config $config */
-$config = require_once join(DIRECTORY_SEPARATOR, [__DIR__, 'vendor', 'netsells', 'code-standards-laravel', 'phpcsfixer', 'config.php']);
+$config = require_once join(DIRECTORY_SEPARATOR, [__DIR__, 'vendor', 'yourparkingspace', 'code-standards-laravel', 'phpcsfixer', 'config.php']);
 
 $rules = array_merge_recursive($config->getRules(), [
     // set project specific rules here
