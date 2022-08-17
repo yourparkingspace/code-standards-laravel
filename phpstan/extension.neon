@@ -2,9 +2,6 @@ includes:
   - ../../../nunomaduro/larastan/extension.neon
 
 parameters:
-    paths:
-        - app
-
     level: 9
 
     checkMissingIterableValueType: false
