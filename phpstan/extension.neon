@@ -6,6 +6,3 @@ parameters:
 
     checkMissingIterableValueType: false
     checkGenericClassInNonGenericObjectType: false
-
-    ignoreErrors:
-    	- '#^Class [a-zA-Z\\]+ has an uninitialized readonly property [a-zA-Z\$]+. Assign it in the constructor\.$#'
