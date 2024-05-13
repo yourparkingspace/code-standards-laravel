@@ -6,8 +6,7 @@ includes:
 parameters:
     level: 6
 
-    checkMissingIterableValueType: false
-    checkGenericClassInNonGenericObjectType: false
-
     ignoreErrors:
+    - identifier: missingType.iterableValue
+    - identifier: missingType.generics
     - message: '#Call to an undefined method MongoDB\\Laravel\\Relations\\EmbedsMany<[a-zA-Z0-9\\_]+>::where\(\)#'
