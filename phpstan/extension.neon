@@ -1,7 +1,7 @@
 includes:
-  - ../../../larastan/larastan/extension.neon
-  - ../../../phpstan/phpstan-phpunit/extension.neon
-  - ../../../phpstan/phpstan-mockery/extension.neon
+    - ../../../larastan/larastan/extension.neon
+    - ../../../phpstan/phpstan-phpunit/extension.neon
+    - ../../../phpstan/phpstan-mockery/extension.neon
 
 parameters:
     level: 6
@@ -9,5 +9,5 @@ parameters:
     checkMissingIterableValueType: false
     checkGenericClassInNonGenericObjectType: false
 
-	ignoreErrors:
-	- message: '#Call to an undefined method MongoDB\\Laravel\\Relations\\EmbedsMany<[a-zA-Z0-9\\_]+>::where\(\)#'
+    ignoreErrors:
+    - message: '#Call to an undefined method MongoDB\\Laravel\\Relations\\EmbedsMany<[a-zA-Z0-9\\_]+>::where\(\)#'
