@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: code-standards-laravel
+  annotations:
+    github.com/project-slug: yourparkingspace/code-standards-laravel
+spec:
+  type: service
+  lifecycle: production
+  owner: marketplace-backend
