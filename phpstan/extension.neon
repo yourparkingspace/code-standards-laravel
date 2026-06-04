@@ -4,8 +4,4 @@ includes:
   - ../../../phpstan/phpstan-mockery/extension.neon
 
 parameters:
-    level: 6
-
-    ignoreErrors:
-    - identifier: missingType.iterableValue
-    - identifier: missingType.generics
+    level: 8
