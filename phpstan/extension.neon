@@ -4,7 +4,4 @@ includes:
   - ../../../phpstan/phpstan-mockery/extension.neon
 
 parameters:
-    level: 6
-
-    checkMissingIterableValueType: false
-    checkGenericClassInNonGenericObjectType: false
+    level: 8
